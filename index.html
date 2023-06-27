@@ -7,54 +7,59 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="cabecalho">
+      <figure class="cabecalho__logo">
         <img src="./assets/img/bird 1.svg" alt="Logo do passarinho azul" />
         <figcaption hidden>Logo Interface Twitter</figcaption>
       </figure>
-      <nav>
-        <ul>
-          <li>
+      <nav class="cabecalho__menuNavegacao">
+        <ul class="cabecalho__menuLista">
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Home.png" alt="" />
             <a href="">Página Inicial</a>
           </li>
-          <li>
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Hashtag.png" alt="" />
             <a href="">Explorar</a>
           </li>
-          <li>
+
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Notification.png" alt="" />
             <a href="">Notificações</a>
           </li>
-          <li>
+
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Group.png" alt="" />
             <a href="">Mensgens</a>
           </li>
-          <li>
+
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Group (1).png" alt="" />
             <a href="">Itens salvos</a>
           </li>
-          <li>
+
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Group (2).png" alt="" />
             <a href="">Listas</a>
           </li>
-          <li>
+
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/avatar-dark mode.png" alt="" />
             <a href="">Perfil</a>
           </li>
-          <li>
+
+          <li class="cabecalho__menuItem">
             <img src="./assets/img/Group (3).png" alt="" />
             <a href="">Mais</a>
           </li>
-          <li></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h3>Home</h3>
+    <main class="conteudoPrincipal">
+      <h3 class="conteudoPrincipal__titulo">Home</h3>
 
-      <form action="#">
+      <form action="#" class="conteudoPrincipal__form">
         <textarea
           name="textoTweet"
           id="textoTweet"
@@ -64,11 +69,15 @@
       </form>
 
       <!--Feed-->
-      <section>
-        <ul>
-          <li>
-            <img src="./assets/img/avatar-dark mode.png" alt="Kauã" />
-            <div>
+      <section class="conteudoPrincipal__feed">
+        <ul class="conteudoPrincipal__listaTweet">
+          <li class="conteudoPrincipal__tweet">
+            <img
+              class="tweet__fotoPerfil"
+              src="./assets/img/avatar-dark mode.png"
+              alt="Kauã"
+            />
+            <div class="tweet__conteudo">
               <h2>Kauã</h2>
               <span>@Adrien76 14s</span>
               <p>Mornings are for coffee and contemplation.</p>
