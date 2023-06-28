@@ -1,9 +1,10 @@
 body {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
 }
@@ -41,15 +42,33 @@ body {
 /*conteudo principal*/
 .conteudoPrincipal {
   flex-basis: 70%;
+  border-left: 1px solid #e7ecf0;
+  border-right: 1px solid #e7ecf0;
 }
 .conteudoPrincipal__titulo {
+  padding: 10px 30px;
 }
 
 .conteudoPrincipal__form {
+  padding: 10px 30px;
+  border-top: 1px solid #e7ecf0;
+  border-bottom: 10px solid #e7ecf0;
+  text-align: right;
 }
 .conteudoPrincipal__form textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  height: 55px;
 }
 .conteudoPrincipal__form button {
+  background-color: #1da1f2;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 20px;
 }
 
 .conteudoPrincipal__feed {
@@ -57,15 +76,26 @@ body {
 .conteudoPrincipal__listaTweet {
 }
 .conteudoPrincipal__tweet {
+  padding: 20px 32px;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e7ecf0;
 }
 
 .tweet__fotoPerfil {
+  max-width: 50px;
 }
 .tweet__conteudo {
+  margin-left: 15px;
 }
 .tweet__conteudo h2 {
+  display: inline-block;
 }
 .tweet__conteudo span {
+  display: inline-block;
+  color: #828282;
 }
 .tweet__conteudo p {
+  margin-top: 15px;
+  color: #333333;
 }

@@ -13,12 +13,12 @@ Projeto desenvolvido na parte 3 da maratona de programação da Kenzie Academy B
 
 - README.md
 - index.html
+- reset.css
+- style.css
+- script.js
 - /assets
     - /img
-    - /js
-        - script.js
-    - /css
-        - style.css
+   
 
 ### Fonte
 
